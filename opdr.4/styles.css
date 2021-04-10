@@ -1,0 +1,12 @@
+body { 
+    color: red;
+}
+p.black-border {
+    border: 5px solid black;
+}
+h1.black-border {
+    border: 5px solid black;
+}
+#h1 {
+    background-color: green;
+}
