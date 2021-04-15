@@ -1,0 +1,28 @@
+body { 
+    color: red;
+}
+.black-border {
+    border: 2px solid rgb(2, 170, 78);
+    margin: 70px;
+}
+
+main.blue-border {
+    border: 5px solid rgb(1, 165, 28);
+}   
+#background-color {
+    background-color: green;
+}
+main {
+    width: 300px;
+    margin: auto;
+    border: 1px solid red;
+  }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+.soft-border {
+    color: blanchedalmond;
+}
+
