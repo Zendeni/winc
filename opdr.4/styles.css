@@ -1,12 +1,9 @@
 body { 
     color: red;
 }
-p.black-border {
+.black-border {
     border: 5px solid black;
 }
-h1.black-border {
-    border: 5px solid black;
-}
-#h1 {
+#background-color {
     background-color: green;
 }
