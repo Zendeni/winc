@@ -14,35 +14,74 @@ header, nav, main, aside, footer {
     margin: 5px;
 }
 
-
+/* Homepage */
 header {
-    background-color: salmon;
+    background-color: rgb(255, 255, 255);
     grid-area: header;
+    font-family: cursive;
+    font-size: 8rem;
+    color: brown;
 }
 nav {
-    background-color: sandybrown;
+    background-color: rgb(255, 254, 254);
     grid-area: nav;
+    justify-self: center;
+    
 }
+ul li{
+    display: inline;
+    margin: 40px;
+    font-size: 25px;
+  }
+
 main {
-    background-color: skyblue;
+    background-color: rgb(255, 255, 255);
     grid-area: main;
+    font-family: cursive;
+    font-size: 2rem;
 }
 aside {
-    background-color: tan;
+    background-color: rgb(247, 244, 241);
     grid-area: aside;
+    font-size: 19px;
+    font-weight: lighter;
+    font-family: cursive;
 }
 footer {
     background-color: tomato;
     grid-area: footer;
 }
+/* contact page */
+.contact-parent {
+    display: grid;
+    grid-template-rows: 200px 100px 1fr 100px;
+    grid-template-columns: 30px 1fr 1fr 30px;
+    height: 800px;
+    grid-template-areas:
+    ". header header ."
+    ". nav nav ."
+    ". main aside ."
+    ". footer footer .";
+}
+
+.contact-main {
+    background-color: rgb(255, 255, 255);
+    width: 450px;
+}
+.contact-aside {
+    background-color: crimson;
+    width: 500px;
+}
 
 @media (min-width: 1024px) {
     .parent {
-        grid-template-rows: 300px 500px 200px;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 200px 100px 1fr 100px;
+        grid-template-columns: 30px 1fr 200px 30px;
+        height: 800px;
         grid-template-areas:
-        "header header header"
-        "main main aside"
-        "footer footer footer";
+        ". header header ."
+        ". nav nav ."
+        ". main aside ."
+        ". footer footer .";
     }
 }
