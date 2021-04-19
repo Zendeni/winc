@@ -1,0 +1,48 @@
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 500px 200px;
+    height: 300px;
+    grid-template-areas:
+    "header nav"
+    "main aside"
+    "footer footer";
+}
+
+
+header, nav, main, aside, footer {
+    margin: 5px;
+}
+
+
+header {
+    background-color: salmon;
+    grid-area: header;
+}
+nav {
+    background-color: sandybrown;
+    grid-area: nav;
+}
+main {
+    background-color: skyblue;
+    grid-area: main;
+}
+aside {
+    background-color: tan;
+    grid-area: aside;
+}
+footer {
+    background-color: tomato;
+    grid-area: footer;
+}
+
+@media (min-width: 1024px) {
+    .parent {
+        grid-template-rows: 300px 500px 200px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+        "header header header"
+        "main main aside"
+        "footer footer footer";
+    }
+}

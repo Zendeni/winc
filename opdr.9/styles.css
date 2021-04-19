@@ -23,18 +23,16 @@ p {
 }
 
 /* blog */
-.blogpost { width: 300px; border: 1px solid black; }
-
-.blogtitles {
-    display: flex;
-}
-h1.blogtitles {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: black;
-}
 .blogpost {
-    flex-grow: inherit;
-}
+    width: 300px;
+    border: 1px solid black;
+  }
+  .blogpost-container {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
 
 @media (min-width: 1024px) {
     body {
