@@ -1,3 +1,7 @@
+body {
+    font-family: 'Akronim';font-size: 22px;
+}
+
 .parent {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -48,9 +52,13 @@ aside {
     font-family: cursive;
 }
 footer {
-    background-color: tomato;
+    background-color: rgb(255, 255, 255);
     grid-area: footer;
+    display: grid; 
+    
+
 }
+
 /* contact page */
 .contact-parent {
     display: grid;
@@ -69,8 +77,16 @@ footer {
     width: 450px;
 }
 .contact-aside {
-    background-color: crimson;
+    background-color: rgb(255, 255, 255);
     width: 500px;
+    border-style: solid;
+    border-color: brown;
+}
+
+/* motiavtievideo */
+.motivatie {
+    text-align: center;
+    background-color: lightgray;
 }
 
 @media (min-width: 1024px) {

@@ -28,8 +28,44 @@
             <p>Wil je meer weten over plastic soep?<br> Contacteer mij! >>></p>
         </main>
         <aside class="contact-aside">
+            <div class="contact-aside" style="text-align: left;">
+                <form name="contact" method="POST" data-netlify="true">
+                    <label for="fname">Voornaam</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Je voornaam...."><br>
+                    <label for="lname">Achternaam</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Je achternaam...."><br>
+                    <label for="country">Land</label>
+                    <select id="country" name="country">
+                        <option value="nederland">Nederland</option>
+                        <option value="belgie">België</option>
+                        <option value="duitsland">Duitsland</option>
+                    </select><br>
+                    <label for="subject">Onderwerp</label>
+                    <textarea id="subject" name="subject" placeholder="Laat mij weten waarover je contact opneemt."
+                        style="height:170px"></textarea><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
         </aside>
-        <footer>footer</footer>
+        <footer>
+            <div class="footer">
+
+                <a href="/hackathon/motivatie.html">
+                    <img src="/hackathon/youtube_logo.png" alt="motivatievideo">
+                </a>
+
+
+                <a href="https://www.facebook.com/PlasticSoupFoundation/" target="_blank">
+                    <img src="/hackathon/facebook_logo.png" alt="Like us on Facebook!">
+                </a>
+
+
+                <a href="https://www.instagram.com/plasticsoupfoundation/?hl=en" target="_blank">
+                    <img src="/hackathon/instagram_logo.png" alt="Follow us on Insta!">
+                </a>
+
+            </div>
+        </footer>
     </div>
 </body>
 
