@@ -1,0 +1,27 @@
+.currentPage:hover {
+    color: lightblue;
+    font-weight: bold;
+    background-color: lightsteelblue;
+}
+
+.link2:active {
+    color: red;
+    font-family: cursive;
+}
+.link2:hover {
+    background-color: lightblue;
+}
+
+.link3:visited {
+    color: yellow;
+}
+input:focus{
+    font-size: 20px;
+    border-color: aqua;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkblue;
+}
