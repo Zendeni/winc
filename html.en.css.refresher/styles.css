@@ -1,0 +1,77 @@
+.invites {
+    margin: 15px;
+    background-color: rgb(255, 255, 255);
+  }
+  
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    border:solid lightgrey;
+    border-radius: 2%;
+  }
+  
+.blue-column {
+    background-color: rgb(255, 255, 255);
+    height: 250px;
+    width: 420px;
+  }
+  
+.green-column {
+    background-color: rgb(255, 255, 255);
+    height: 250px;
+    width: 420px;
+  }
+  
+.pass {
+    display: flex;
+    justify-content: space-between;
+    size: 25px 25px;
+}
+*#approve {
+  color: green;
+}
+*#decline {
+  color: red;
+}
+
+#connection {
+  color: darkgray;
+  
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    float: end;
+    height: 35%;
+    
+  }
+.button1 {
+    background-color: rgb(255, 255, 255);
+    place-self: center;
+    border: 3px solid rgb(23, 197, 17);
+    border-radius: 7%;
+    padding-right: 4.8rem;
+    padding-left: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.button2 {
+    background-color: rgb(255, 255, 255);
+    place-self: center;
+    border: 3px solid rgb(206, 21, 46);
+    border-radius: 7%;
+    padding-left: 5.2rem;
+    padding-right: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+} 
