@@ -1,0 +1,17 @@
+
+
+$green-color: green;
+$black-color: black;
+
+$standard-padding: 20px;
+
+@mixin hero {
+    font-family: cursive;
+}
+
+@mixin featured {
+  font-family: cursive;
+}
+@mixin about {
+  font-family: cursive;
+}
