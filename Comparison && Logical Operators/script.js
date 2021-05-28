@@ -32,8 +32,8 @@ if (myName === 'Bram' || myName === 'Sarah') {
 
 if (totalAmount >= 25) {
     console.log("Jij krijgt gratis (vega)bitterballen.")
-} if (totalAmount >= 50) {
+} else if (totalAmount >= 50) {
     console.log("Jij krijgt gratis portie nacho's.")
-} if (totalAmount >= 100) {
+} else if (totalAmount >= 100) {
     console.log("Jij krijgt een gratis flesje champagne!")
 } else { console.log("wilt je nog iets bestellen?") };
