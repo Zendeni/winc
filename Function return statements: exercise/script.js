@@ -7,7 +7,7 @@ const checkNumber = function (number) {
 }
 
 console.log(checkNumber(99))
-//this function 'does' checking of a number
+//this function produces
 
 
 
