@@ -37,7 +37,7 @@ Probeer dit stukje code uit en gebruik hier een object met 5 properties voor. Be
 for..in
 
 Ben je nu aan het itereren?
-Nee
+Over een object
 
 */
 
