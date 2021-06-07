@@ -1,0 +1,64 @@
+body {
+    background-color: snow;
+}
+img {
+    background: transparent;
+    width: 50px;
+}
+.nav {
+    width: 50px;
+    background: transparent;
+    cursor: pointer;
+}
+
+#para {
+    position:relative; left:800px; top:2px;
+}
+
+.menu {
+    visibility: hidden;
+    width: 250px;
+    height: 190px;
+}
+.menuOpen {
+    visibility: visible;
+    width: 250px;
+    height: 190px;
+    cursor: pointer;
+}
+
+#menuHome{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    background-color: snow;
+    border: 2px solid gray;
+}
+#menuRed {
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    background-color: red;
+    border: 2px solid gray;
+}
+#menuOrange {
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    background-color: Orange;
+    border: 2px solid gray;
+}
+#menuPurple {
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    background-color: Purple;
+    border: 2px solid gray;
+}
+#menuGreen {
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    background-color: Green;
+    border: 2px solid gray;
+}
