@@ -2,7 +2,7 @@
 const vak = "wiskunde"
 
 setTimeout(function huiswerkMaken(vak, callback) {
-    console.log("Ok, ok, ik ga nu mijn", ${ vak }, "huiswerk maken");
+    console.log("Ok, ok, ik ga nu mijn", { vak }, "huiswerk maken");
     callback()
 }, 2000)
 
