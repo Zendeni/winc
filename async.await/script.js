@@ -27,3 +27,18 @@ const createPost = async () => {
     const json = await response.json();
     console.log(json);
 }
+
+
+fetch(URL)
+    .then((response) => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        return response.json();
+    })
+    .then((data) => {
+        //Do something, show data etc.
+    })
+    .catch((error) => {
+        console.log(error);
+    });
