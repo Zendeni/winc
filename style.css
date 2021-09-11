@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(47, 49, 49);
+}
+
+.buttons {
+    display: flex;
+    margin-top: 50px;
+}
+
+#btnLandenlijst {
+    padding: 20px;
+    margin: 50px;
+}
+
+#btnSteenbokvrouwen {
+    padding: 20px;
+    margin: 50px;
+}
+
+#btnOudeCreditcards {
+    padding: 20px;
+    margin: 50px;
+}
+#btnMeesteMensen {
+    padding: 20px;
+    margin: 50px;
+}
+#btnGemiddeldeLeeftijd {
+    padding: 20px;
+    margin: 50px;
+}
+#btnMatchmaking {
+    padding: 20px;
+    margin: 50px;
+} 
